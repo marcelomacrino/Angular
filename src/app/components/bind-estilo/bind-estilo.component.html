@@ -1,0 +1,8 @@
+<p>bind-estilo works!</p>
+<div [style.backgroundColor]="corDeFundo" [style.fontSize.px]="tamanhoFonte">
+    Este texto terá o estilo alterado dinamicamente.
+  </div>
+  
+  <button (click)="alternarCor()">Alternar Cor</button>
+  <button (click)="aumentarFonte()">Aumentar Fonte</button>
+  <button (click)="diminuirFonte()">Diminuir Fonte</button>

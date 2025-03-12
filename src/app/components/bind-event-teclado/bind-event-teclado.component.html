@@ -1,0 +1,13 @@
+<p>bind-event-teclado works!</p>
+<p>Evento Tecla Pressionada</p>
+<input type="text" (keypress)="(umaTeclaPressionada())">
+<p>Evento Tecla Pressionada baixo keydown</p>
+<input type="text" (keydown)="(umaTeclaPressionadaBaixo())">
+<p>Evento Tecla Pressionada baixo e depois Enter keydown enter</p>
+<input type="text" (keydown.enter)="(umaTeclaPressionadaBaixoEnter())">
+<p>Evento Tecla Pressionada acima keyup</p>
+<input type="text" (keyup)="(umaTeclaPressionadaCima())">
+<p>Evento foco no campo</p>
+<input type="text" (focus)="(focoCampoInput())">
+<p>Evento selecionar o que foi digitado</p>
+<input type="text" (select)="(selecionar())">

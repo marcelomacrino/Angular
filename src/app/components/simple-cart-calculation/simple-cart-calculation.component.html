@@ -1,0 +1,12 @@
+<p>simple-cart-calculation works!</p>
+<div class="cart-container">
+    <div class="form-group">
+        <label for="">Quantidade:</label>
+        <input type="number" class="quantidade-entrada" [(ngModel)]="quantidade" min="0">
+    </div>
+    <div class="info-preco">
+        Preço por item: <span class="preco">{{ precoPorItem }}</span>
+    </div>
+    <label for="">Preço Total:</label>
+    <input type="text" class="total-preco-entrada" [(ngModel)]="percoTotal">
+</div>
